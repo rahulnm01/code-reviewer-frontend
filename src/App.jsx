@@ -59,4 +59,8 @@ function App() {
   )
 }
 
+setInterval(() => {
+  fetch("https://code-reviewer-backend-e42u.onrender.com");
+}, 5 * 60 * 1000);
+
 export default App
